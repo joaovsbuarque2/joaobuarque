@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal - Front-end & Mobile Developer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'No build needed - pure HTML/CSS/JS'",
+    "preview": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "mobile",
+    "developer",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "João V. S. Buarque",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

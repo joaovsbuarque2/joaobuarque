@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="João V. S. Buarque - Desenvolvedor Front-End & Mobile especializado em React, React Native e produtos digitais.">
+    <meta name="keywords" content="frontend, mobile, developer, react, react native, javascript, typescript, fintech">
+    <meta name="author" content="João V. S. Buarque">
+    <meta property="og:title" content="João V. S. Buarque | Front-end & Mobile Developer">
+    <meta property="og:description" content="Desenvolvedor Front-End & Mobile especializado em React, React Native e produtos digitais.">
+    <meta property="og:type" content="website">
+    <title>João V. S. Buarque | Front-end & Mobile Developer</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="nav__logo">JVB</a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">Sobre</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#stack" class="nav__link">Stack</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projetos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experiência</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contato</a>
+                </li>
+            </ul>
+            <button class="nav__toggle" aria-label="Abrir menu">
+                <span class="nav__toggle-icon"></span>
+                <span class="nav__toggle-icon"></span>
+                <span class="nav__toggle-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        João V. S. Buarque
+                    </h1>
+                    <p class="hero__subtitle">
+                        Front-end & Mobile Developer
+                    </p>
+                    <p class="hero__stack">
+                        React • React Native • TypeScript • JavaScript
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">
+                            Ver Projetos
+                        </a>
+                        <a href="https://github.com/joaobuarque" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/joaobuarque" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section__title">Sobre mim</h2>
+                <div class="about__content">
+                    <p class="about__text">
+                        Desenvolvedor Front-End e Mobile com foco em React e React Native. Tenho experiência sólida no desenvolvimento de aplicações web e mobile em produção, com forte ênfase em performance, arquitetura de código escalável e interfaces bem estruturadas. Atuei em empresas do setor financeiro e produtos digitais, entregando soluções robustas focadas na experiência do usuário. Busco constantemente evoluir nas melhores práticas de desenvolvimento e manter código limpo e manutenível.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="stack">
+            <div class="container">
+                <h2 class="section__title">Stack Tecnológica</h2>
+                <div class="stack__content">
+                    <div class="stack__category">
+                        <h3 class="stack__category-title">Front-end</h3>
+                        <ul class="stack__list">
+                            <li class="stack__item">React</li>
+                            <li class="stack__item">React Hooks & Context</li>
+                            <li class="stack__item">TypeScript</li>
+                            <li class="stack__item">Next.js</li>
+                            <li class="stack__item">Tailwind CSS</li>
+                            <li class="stack__item">Styled Components</li>
+                        </ul>
+                    </div>
+                    <div class="stack__category">
+                        <h3 class="stack__category-title">Mobile</h3>
+                        <ul class="stack__list">
+                            <li class="stack__item">React Native</li>
+                            <li class="stack__item">Expo</li>
+                            <li class="stack__item">React Navigation</li>
+                            <li class="stack__item">Async Storage</li>
+                            <li class="stack__item">Push Notifications</li>
+                        </ul>
+                    </div>
+                    <div class="stack__category">
+                        <h3 class="stack__category-title">Ferramentas</h3>
+                        <ul class="stack__list">
+                            <li class="stack__item">Git & GitHub</li>
+                            <li class="stack__item">REST API</li>
+                            <li class="stack__item">Jest & React Testing Library</li>
+                            <li class="stack__item">CI/CD (GitHub Actions)</li>
+                            <li class="stack__item">Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section__title">Projetos</h2>
+                <div class="projects__list">
+                    <article class="project">
+                        <div class="project__image">
+                            <img src="assets/images/project1.jpg" alt="Dashboard Financeiro">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Dashboard Financeiro</h3>
+                            <p class="project__description">
+                                Dashboard completo para gestão financeira com visualização de dados em tempo real, gráficos interativos e relatórios personalizáveis. Sistema autenticado com controle de acesso baseado em permissões.
+                            </p>
+                            <div class="project__tech">
+                                <span class="project__tech-item">React</span>
+                                <span class="project__tech-item">TypeScript</span>
+                                <span class="project__tech-item">Recharts</span>
+                                <span class="project__tech-item">Tailwind CSS</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    Ver projeto →
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project__image">
+                            <img src="assets/images/project2.jpg" alt="App de Carteira Digital">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">App de Carteira Digital</h3>
+                            <p class="project__description">
+                                Aplicativo móvel de carteira digital com funcionalidades de pagamento, transferência e recarga de celular. Integração com APIs bancárias e autenticação biométrica.
+                            </p>
+                            <div class="project__tech">
+                                <span class="project__tech-item">React Native</span>
+                                <span class="project__tech-item">Expo</span>
+                                <span class="project__tech-item">Expo Secure Store</span>
+                                <span class="project__tech-item">TypeScript</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    Ver projeto →
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project__image">
+                            <img src="assets/images/project3.jpg" alt="Plataforma E-commerce">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Plataforma E-commerce</h3>
+                            <p class="project__description">
+                                Plataforma de e-commerce responsiva com carrinho de compras, checkout integrado e sistema de avaliações de produtos. Performance otimizada com lazy loading e code splitting.
+                            </p>
+                            <div class="project__tech">
+                                <span class="project__tech-item">Next.js</span>
+                                <span class="project__tech-item">Stripe</span>
+                                <span class="project__tech-item">Tailwind CSS</span>
+                                <span class="project__tech-item">Prisma</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    Ver projeto →
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section__title">Experiência</h2>
+                <div class="experience__timeline">
+                    <article class="experience__item">
+                        <div class="experience__date">
+                            <span class="experience__year">2023</span>
+                            <span class="experience__duration">Presente</span>
+                        </div>
+                        <div class="experience__content">
+                            <h3 class="experience__role">Desenvolvedor Front-End Sênior</h3>
+                            <h4 class="experience__company">FinTech Solutions</h4>
+                            <p class="experience__description">
+                                Desenvolvimento de interfaces web responsivas para plataforma financeira. Implementação de arquitetura de componentes reutilizáveis e sistema de design interno. Colaboração direta com time de design para garantir consistência visual e acessibilidade.
+                            </p>
+                            <ul class="experience__achievements">
+                                <li>Redução de 40% no tempo de carregamento da aplicação principal</li>
+                                <li>Implementação de sistema de design com 50+ componentes</li>
+                                <li>Mentoria de 3 desenvolvedores júnior e pleno</li>
+                                <li>Integração com APIs REST e WebSocket para dados em tempo real</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience__item">
+                        <div class="experience__date">
+                            <span class="experience__year">2021</span>
+                            <span class="experience__duration">2023</span>
+                        </div>
+                        <div class="experience__content">
+                            <h3 class="experience__role">Desenvolvedor Mobile Pleno</h3>
+                            <h4 class="experience__company">Digital Payments Co.</h4>
+                            <p class="experience__description">
+                                Desenvolvimento de aplicativos mobile iOS e Android com React Native e Expo. Criação de módulos nativos para funcionalidades específicas e integração com serviços terceiros de pagamento e autenticação.
+                            </p>
+                            <ul class="experience__achievements">
+                                <li>Aplicativo fintech com mais de 100 mil usuários ativos</li>
+                                <li>Implementação de autenticação biométrica (Face ID/Touch ID)</li>
+                                <li>Otimização de build size em 30% com code splitting</li>
+                                <li>Integração com SDKs de pagamento (Stripe, PayPal)</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience__item">
+                        <div class="experience__date">
+                            <span class="experience__year">2020</span>
+                            <span class="experience__duration">2021</span>
+                        </div>
+                        <div class="experience__content">
+                            <h3 class="experience__role">Desenvolvedor Front-End</h3>
+                            <h4 class="experience__company">Tech Startup Inc.</h4>
+                            <p class="experience__description">
+                                Desenvolvimento de interfaces web e landing pages para produtos digitais. Implementação de protótipos do Figma em código e manutenção de aplicações existentes. Participação em code reviews e documentação técnica.
+                            </p>
+                            <ul class="experience__achievements">
+                                <li>Entrega de 5 landing pages com alto índice de conversão</li>
+                                <li>Criação de biblioteca de componentes reutilizáveis</li>
+                                <li>Implementação de testes automatizados com 80% de cobertura</li>
+                                <li>Colaboração em projetos ágeis com metodologia Scrum</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section__title">Contato</h2>
+                <div class="contact__content">
+                    <p class="contact__text">
+                        Estou disponível para novas oportunidades e projetos. Entre em contato para conversarmos.
+                    </p>
+                    <div class="contact__links">
+                        <a href="mailto:contato@joaobuarque.dev" class="contact__link">
+                            <span class="contact__link-icon">@</span>
+                            contato@joaobuarque.dev
+                        </a>
+                        <a href="https://github.com/joaobuarque" target="_blank" rel="noopener noreferrer" class="contact__link">
+                            <span class="contact__link-icon">GH</span>
+                            github.com/joaobuarque
+                        </a>
+                        <a href="https://linkedin.com/in/joaobuarque" target="_blank" rel="noopener noreferrer" class="contact__link">
+                            <span class="contact__link-icon">LI</span>
+                            linkedin.com/in/joaobuarque
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">
+                © 2025 João V. S. Buarque. Desenvolvido com HTML, CSS e JavaScript puro.
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
