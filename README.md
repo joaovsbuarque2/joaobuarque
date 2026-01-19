@@ -1,5 +1,7 @@
 # Portfólio - João V. S. Buarque
 
+[![Ver Site Ao Vivo](https://img.shields.io/badge/🌐_Ver_Site_Ao_Vivo-Visit-blue)](https://joaovsbuarque2.github.io/joaobuarque/)
+
 Portfólio pessoal de desenvolvedor Front-end & Mobile, construído com HTML, CSS e JavaScript puro para máxima performance e facilidade de deploy no GitHub Pages.
 
 ## 🚀 Tecnologias
@@ -70,7 +72,7 @@ Você pode abrir o arquivo `index.html` diretamente no navegador.
 1. Faça push do código para o GitHub
 2. Acesse Settings > Pages
 3. Selecione a branch `main`
-4. O site estará disponível em `https://seuusuario.github.io/repository`
+4. O site estará disponível em `https://joaovsbuarque2.github.io/joaobuarque`
 
 ### Netlify / Vercel
 
