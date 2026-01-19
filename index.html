@@ -3,308 +3,399 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="João V. S. Buarque - Desenvolvedor Front-End & Mobile especializado em React, React Native e produtos digitais.">
-    <meta name="keywords" content="frontend, mobile, developer, react, react native, javascript, typescript, fintech">
+    <meta name="description" content="João V. S. Buarque - Desenvolvedor Front-End & Mobile com mais de 4 anos de experiência em React, React Native, Fintech e Criptoativos.">
+    <meta name="keywords" content="frontend, mobile, developer, react, react native, javascript, typescript, fintech, golang, cripto">
     <meta name="author" content="João V. S. Buarque">
     <meta property="og:title" content="João V. S. Buarque | Front-end & Mobile Developer">
     <meta property="og:description" content="Desenvolvedor Front-End & Mobile especializado em React, React Native e produtos digitais.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://joaobuarque.dev/assets/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://joaobuarque.dev">
     <title>João V. S. Buarque | Front-end & Mobile Developer</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#home" class="nav__logo">JVB</a>
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">Sobre</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#stack" class="nav__link">Stack</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#projects" class="nav__link">Projetos</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#experience" class="nav__link">Experiência</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link">Contato</a>
-                </li>
-            </ul>
-            <button class="nav__toggle" aria-label="Abrir menu">
-                <span class="nav__toggle-icon"></span>
-                <span class="nav__toggle-icon"></span>
-                <span class="nav__toggle-icon"></span>
-            </button>
-        </nav>
-    </header>
+      <header class="header" role="banner">
+          <nav class="nav" role="navigation" aria-label="Navegação principal">
+               <a href="#home" class="nav__logo" aria-label="Página inicial de João Buarque">João Buarque</a>
+              <ul class="nav__list" role="menubar">
+                  <li class="nav__item" role="none">
+                      <a href="#about" class="nav__link" role="menuitem">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                              <circle cx="12" cy="7" r="4"/>
+                          </svg>
+                          Sobre
+                      </a>
+                  </li>
+                  <li class="nav__item" role="none">
+                      <a href="#stack" class="nav__link" role="menuitem">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <polygon points="12,2 2,7 12,12 22,7"/>
+                              <polyline points="2,17 12,22 22,17"/>
+                              <polyline points="2,12 12,17 22,12"/>
+                          </svg>
+                          Stack
+                      </a>
+                  </li>
+                  <li class="nav__item" role="none">
+                      <a href="#experience" class="nav__link" role="menuitem">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                              <line x1="8" y1="21" x2="16" y2="21"/>
+                              <line x1="12" y1="17" x2="12" y2="21"/>
+                          </svg>
+                          Experiência
+                      </a>
+                  </li>
+                  <li class="nav__item" role="none">
+                      <a href="#certifications" class="nav__link" role="menuitem">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                          </svg>
+                          Certificações
+                      </a>
+                  </li>
+                  <li class="nav__item" role="none">
+                      <a href="#contact" class="nav__link" role="menuitem">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                              <polyline points="22,6 12,13 2,6"/>
+                          </svg>
+                          Contato
+                      </a>
+                  </li>
+              </ul>
+              <button class="nav__toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                  <span class="nav__toggle-icon" aria-hidden="true"></span>
+                  <span class="nav__toggle-icon" aria-hidden="true"></span>
+                  <span class="nav__toggle-icon" aria-hidden="true"></span>
+              </button>
+          </nav>
+          <div class="nav__overlay"></div>
+      </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <div class="hero__content">
-                    <h1 class="hero__title">
-                        João V. S. Buarque
-                    </h1>
-                    <p class="hero__subtitle">
-                        Front-end & Mobile Developer
-                    </p>
-                    <p class="hero__stack">
-                        React • React Native • TypeScript • JavaScript
-                    </p>
-                    <div class="hero__buttons">
-                        <a href="#projects" class="btn btn--primary">
-                            Ver Projetos
-                        </a>
-                        <a href="https://github.com/joaobuarque" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
-                            GitHub
-                        </a>
-                        <a href="https://linkedin.com/in/joaobuarque" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
-                            LinkedIn
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <main id="main-content">
+          <section id="home" class="hero" aria-labelledby="hero-title">
+              <div class="hero__background">
+                  <img src="assets/images/foto-fundo.png" alt="" class="hero__background-image" aria-hidden="true">
+                  <div class="hero__overlay"></div>
+                  <div class="hero__particles">
+                      <span></span><span></span><span></span><span></span><span></span>
+                      <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="hero__content">
+                       <div class="hero__avatar">
+                           <img src="assets/images/foto-icon.jpeg" alt="Foto de João V. S. Buarque" class="hero__image">
+                       </div>
+                      <h1 id="hero-title" class="hero__title">
+                          João V. S. Buarque
+                      </h1>
+                      <p class="hero__subtitle">
+                          Front-end & Mobile Developer
+                      </p>
+                      <p class="hero__stack">
+                          <span class="hero__stack-icon">&#60;/&#62;</span>
+                          Web Developer • React • React Native • TypeScript • Go
+                      </p>
+                      <p class="hero__location">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                              <circle cx="12" cy="10" r="3"/>
+                          </svg>
+                          Palmeira Real – Limeira / SP
+                      </p>
+                      <div class="hero__buttons" role="group" aria-label="Links principais">
+                          <a href="#experience" class="btn btn--primary">
+                              Ver Experiência
+                          </a>
+                          <a href="https://github.com/joaovsbuarque2" target="_blank" rel="noopener noreferrer" class="btn btn--secondary" aria-label="Ver perfil no GitHub">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                              </svg>
+                              GitHub
+                          </a>
+                          <a href="#contact" class="btn btn--secondary">
+                              Contato
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section__title">Sobre mim</h2>
-                <div class="about__content">
-                    <p class="about__text">
-                        Desenvolvedor Front-End e Mobile com foco em React e React Native. Tenho experiência sólida no desenvolvimento de aplicações web e mobile em produção, com forte ênfase em performance, arquitetura de código escalável e interfaces bem estruturadas. Atuei em empresas do setor financeiro e produtos digitais, entregando soluções robustas focadas na experiência do usuário. Busco constantemente evoluir nas melhores práticas de desenvolvimento e manter código limpo e manutenível.
-                    </p>
-                </div>
-            </div>
-        </section>
+          <section id="about" class="about" aria-labelledby="about-title">
+              <div class="container">
+                  <h2 id="about-title" class="section__title">Sobre mim</h2>
+                  <div class="about__content">
+                      <div class="about__text-wrapper">
+                          <p class="about__text">
+                             Desenvolvedor Front-End e Mobile com sólida experiência no ecossistema JavaScript,
+                            atuando na construção de aplicações web e mobile reais utilizando React e React Native.
+                            Possuo vivência em produtos do setor financeiro e de criptoativos, trabalhando com
+                            exchanges, carteiras digitais e integrações via APIs.
+                            Também tenho contato com backend para suporte a serviços e integrações,
+                            utilizando Go (Golang).
+                            Meu foco está em performance, organização de código e interfaces bem pensadas,
+                            priorizando sempre escalabilidade e qualidade.
+                        </p>
+                          <img src="assets/images/foto-perfil.jpeg" alt="João Buarque trabalhando" class="about__image">
+                      </div>
+                      <div class="about__highlights">
+                          <div class="highlight">
+                              <span class="highlight__icon" aria-hidden="true">🚀</span>
+                              <span class="highlight__text">Performance-focused</span>
+                          </div>
+                          <div class="highlight">
+                              <span class="highlight__icon" aria-hidden="true">💰</span>
+                              <span class="highlight__text">Fintech & Cripto</span>
+                          </div>
+                          <div class="highlight">
+                              <span class="highlight__icon" aria-hidden="true">🔧</span>
+                              <span class="highlight__text">Clean Code</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
         <section id="stack" class="stack">
             <div class="container">
                 <h2 class="section__title">Stack Tecnológica</h2>
                 <div class="stack__content">
                     <div class="stack__category">
-                        <h3 class="stack__category-title">Front-end</h3>
+                        <h3 class="stack__category-title">Core</h3>
                         <ul class="stack__list">
-                            <li class="stack__item">React</li>
-                            <li class="stack__item">React Hooks & Context</li>
+                            <li class="stack__item">JavaScript (ES6+)</li>
                             <li class="stack__item">TypeScript</li>
-                            <li class="stack__item">Next.js</li>
-                            <li class="stack__item">Tailwind CSS</li>
-                            <li class="stack__item">Styled Components</li>
+                            <li class="stack__item">React</li>
+                            <li class="stack__item">React Native</li>
                         </ul>
                     </div>
                     <div class="stack__category">
-                        <h3 class="stack__category-title">Mobile</h3>
+                        <h3 class="stack__category-title">Web & Mobile</h3>
                         <ul class="stack__list">
-                            <li class="stack__item">React Native</li>
-                            <li class="stack__item">Expo</li>
+                            <li class="stack__item">HTML5</li>
+                            <li class="stack__item">CSS3 / SASS</li>
+                            <li class="stack__item">React Hooks & Context</li>
                             <li class="stack__item">React Navigation</li>
-                            <li class="stack__item">Async Storage</li>
-                            <li class="stack__item">Push Notifications</li>
+                            <li class="stack__item">Expo</li>
+                        </ul>
+                    </div>
+                    <div class="stack__category">
+                        <h3 class="stack__category-title">Backend & Integrações</h3>
+                        <ul class="stack__list">
+                            <li class="stack__item">Node.js</li>
+                            <li class="stack__item">Go (Golang)</li>
+                            <li class="stack__item">REST APIs</li>
                         </ul>
                     </div>
                     <div class="stack__category">
                         <h3 class="stack__category-title">Ferramentas</h3>
                         <ul class="stack__list">
-                            <li class="stack__item">Git & GitHub</li>
-                            <li class="stack__item">REST API</li>
-                            <li class="stack__item">Jest & React Testing Library</li>
-                            <li class="stack__item">CI/CD (GitHub Actions)</li>
-                            <li class="stack__item">Figma</li>
+                            <li class="stack__item">Git / GitHub</li>
+                            <li class="stack__item">Scrum / Kanban</li>
+                            <li class="stack__item">VSCode</li>
+                            <li class="stack__item">CI/CD</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section__title">Projetos</h2>
-                <div class="projects__list">
-                    <article class="project">
-                        <div class="project__image">
-                            <img src="assets/images/project1.jpg" alt="Dashboard Financeiro">
+         <section id="experience" class="experience" aria-labelledby="experience-title">
+             <div class="container">
+                 <h2 id="experience-title" class="section__title">Experiência Profissional</h2>
+                 <div class="experience__timeline" role="list">
+
+                    <article class="experience__item">
+                        <div class="experience__date">
+                            <time class="experience__year" datetime="2019-01">Jun 2020</time>
+                            <span class="experience__duration">Jan 2023</span>
                         </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Dashboard Financeiro</h3>
-                            <p class="project__description">
-                                Dashboard completo para gestão financeira com visualização de dados em tempo real, gráficos interativos e relatórios personalizáveis. Sistema autenticado com controle de acesso baseado em permissões.
-                            </p>
-                            <div class="project__tech">
-                                <span class="project__tech-item">React</span>
-                                <span class="project__tech-item">TypeScript</span>
-                                <span class="project__tech-item">Recharts</span>
-                                <span class="project__tech-item">Tailwind CSS</span>
-                            </div>
-                            <div class="project__links">
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    Ver projeto →
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    GitHub →
-                                </a>
-                            </div>
+                        <div class="experience__content">
+                            <p class="experience__role">Front-End / Mobile Developer (React | React Native)</p>
+                            <h4 class="experience__company">Klever</h4>
+<p class="experience__duration-text">Jun 2020 – Jan 2023 · 2 anos e 7 meses</p>
+
+<p class="experience__description">
+    Atuação no setor de Fintech e Criptoativos, participando do desenvolvimento
+    de soluções web e mobile para exchange e carteira digital em produção.
+</p>
+
+<ul class="experience__achievements">
+    <li>
+        Atuação principal no desenvolvimento do front-end da Exchange Web utilizando React,
+        garantindo performance e segurança em transações de ativos
+    </li>
+    <li>
+        Desenvolvimento mobile no app Klever 4 utilizando React Native,
+        com foco em UI/UX responsiva e integração com APIs
+    </li>
+    <li>
+        Colaboração em ambiente ágil, utilizando Git para versionamento em equipe
+        e ferramentas de CI/CD
+    </li>
+    <li>
+        Implementação de serviços de Back-end em Go (Golang) para integração
+        com diferentes protocolos de criptomoedas e microserviços
+    </li>
+</ul>
                         </div>
+                    
                     </article>
 
-                    <article class="project">
-                        <div class="project__image">
-                            <img src="assets/images/project2.jpg" alt="App de Carteira Digital">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">App de Carteira Digital</h3>
-                            <p class="project__description">
-                                Aplicativo móvel de carteira digital com funcionalidades de pagamento, transferência e recarga de celular. Integração com APIs bancárias e autenticação biométrica.
-                            </p>
-                            <div class="project__tech">
-                                <span class="project__tech-item">React Native</span>
-                                <span class="project__tech-item">Expo</span>
-                                <span class="project__tech-item">Expo Secure Store</span>
-                                <span class="project__tech-item">TypeScript</span>
-                            </div>
-                            <div class="project__links">
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    Ver projeto →
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    GitHub →
-                                </a>
-                            </div>
-                        </div>
+                    <article class="experience__item" role="listitem">
+    <div class="experience__date">
+        <time class="experience__year" datetime="2023-01">2023</time>
+        <span class="experience__duration" aria-label="até">Presente</span>
+    </div>
+    <div class="experience__content">
+        <h3 class="experience__role">Front-End / Mobile Developer</h3>
+        <h4 class="experience__company">Freelancer</h4>
+        <p class="experience__duration-text">2023 – Atual</p>
+
+        <p class="experience__description">
+            Atuação como desenvolvedor Front-End e Mobile em projetos sob demanda,
+            desenvolvendo soluções web e mobile para diferentes clientes.
+            Experiência com Angular, Vue e Node.js, além de consultoria técnica
+            para arquitetura de front-end e integrações com APIs.
+        </p>
+    </div>
                     </article>
 
-                    <article class="project">
-                        <div class="project__image">
-                            <img src="assets/images/project3.jpg" alt="Plataforma E-commerce">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Plataforma E-commerce</h3>
-                            <p class="project__description">
-                                Plataforma de e-commerce responsiva com carrinho de compras, checkout integrado e sistema de avaliações de produtos. Performance otimizada com lazy loading e code splitting.
-                            </p>
-                            <div class="project__tech">
-                                <span class="project__tech-item">Next.js</span>
-                                <span class="project__tech-item">Stripe</span>
-                                <span class="project__tech-item">Tailwind CSS</span>
-                                <span class="project__tech-item">Prisma</span>
-                            </div>
-                            <div class="project__links">
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    Ver projeto →
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="project__link">
-                                    GitHub →
-                                </a>
-                            </div>
-                        </div>
+                    <article class="experience__item" role="listitem">
+    <div class="experience__date">
+        <time class="experience__year" datetime="2019-01">Jan 2019</time>
+        <span class="experience__duration" aria-label="até">Jun 2020</span>
+    </div>
+
+    <div class="experience__content">
+        <h3 class="experience__role">Front-End Developer (Web)</h3>
+        <h4 class="experience__company">Getty</h4>
+        <p class="experience__duration-text">1 ano e 6 meses</p>
+
+        <p class="experience__description">
+            Início da carreira em desenvolvimento web, com atuação em aplicações web
+            modernas e progressão rápida de estagiário para desenvolvedor júnior.
+        </p>
+
+        <ul class="experience__achievements">
+            <li>Progressão rápida de estagiário a Desenvolvedor Júnior em 3 meses</li>
+            <li>Desenvolvimento de aplicações Web modernas utilizando tecnologias fundamentais e bibliotecas JavaScript</li>
+            <li>Manutenção de código e implementação de novas funcionalidades em projetos internos</li>
+        </ul>
+    </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="experience">
-            <div class="container">
-                <h2 class="section__title">Experiência</h2>
-                <div class="experience__timeline">
-                    <article class="experience__item">
-                        <div class="experience__date">
-                            <span class="experience__year">2023</span>
-                            <span class="experience__duration">Presente</span>
-                        </div>
-                        <div class="experience__content">
-                            <h3 class="experience__role">Desenvolvedor Front-End Sênior</h3>
-                            <h4 class="experience__company">FinTech Solutions</h4>
-                            <p class="experience__description">
-                                Desenvolvimento de interfaces web responsivas para plataforma financeira. Implementação de arquitetura de componentes reutilizáveis e sistema de design interno. Colaboração direta com time de design para garantir consistência visual e acessibilidade.
-                            </p>
-                            <ul class="experience__achievements">
-                                <li>Redução de 40% no tempo de carregamento da aplicação principal</li>
-                                <li>Implementação de sistema de design com 50+ componentes</li>
-                                <li>Mentoria de 3 desenvolvedores júnior e pleno</li>
-                                <li>Integração com APIs REST e WebSocket para dados em tempo real</li>
-                            </ul>
-                        </div>
-                    </article>
+          <section id="certifications" class="certifications" aria-labelledby="certifications-title">
+              <div class="container">
+                  <h2 id="certifications-title" class="section__title">Certificações</h2>
+                  <div class="certifications__grid">
+                      <div class="certification__item">
+                          <h3 class="certification__title">JavaScript Algorithms and Data Structures</h3>
+                          <p class="certification__provider">freeCodeCamp</p>
+                          <p class="certification__hours">300 horas</p>
+                          <a href="assets/images/certificados/freecodecamp.png" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">SPTech Desenvolvimento Front-end</h3>
+                          <p class="certification__provider">Digital Innovation One</p>
+                          <p class="certification__hours">82 horas</p>
+                          <a href="assets/images/certificados/SPTech-dev-front-end.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">Trilha Fundamentar</h3>
+                          <p class="certification__provider">Rocketseat</p>
+                          <p class="certification__description">Fundamentos do Desenvolvimento Web</p>
+                          <a href="assets/images/certificados/discover-fundamentar-certificate.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">Trilha Especializar</h3>
+                          <p class="certification__provider">Rocketseat</p>
+                          <p class="certification__description">ReactJS, TypeScript, APIs</p>
+                          <a href="assets/images/certificados/discover-especializar-certificate.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">Trilha Conectar</h3>
+                          <p class="certification__provider">Rocketseat</p>
+                          <p class="certification__description">Integração e Deploy</p>
+                          <a href="assets/images/certificados/discover-conectar-certificate.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">Kotlin Experience</h3>
+                          <p class="certification__provider">Digital Innovation One</p>
+                          <p class="certification__hours">40 horas</p>
+                          <a href="assets/images/certificados/kotlin-dio.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                      <div class="certification__item">
+                          <h3 class="certification__title">Produtividade com VSCode</h3>
+                          <p class="certification__provider">Cod3r</p>
+                          <a href="assets/images/certificados/produtividade-vscode.pdf" target="_blank" class="btn btn--secondary">Ver Certificado</a>
+                      </div>
+                  </div>
+                 
+                 <div class="education">
+                     <h3 class="section__subtitle">Formação Acadêmica</h3>
+                     <div class="education__items">
+                         <div class="education__item">
+                             <h4 class="education__degree">Análise e Desenvolvimento de Sistemas (ADS)</h4>
+                             <p class="education__institution">Cruzeiro do Sul Virtual | EAD</p>
+                             <p class="education__period">Atualmente (Cursando)</p>
+                         </div>
+                         <div class="education__item">
+                             <h4 class="education__degree">Ciências da Computação</h4>
+                             <p class="education__institution">UNIP - Universidade Paulista | Presencial</p>
+                             <p class="education__period">2019 - 2021 (5 Semestres concluídos – Incompleto)</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
 
-                    <article class="experience__item">
-                        <div class="experience__date">
-                            <span class="experience__year">2021</span>
-                            <span class="experience__duration">2023</span>
-                        </div>
-                        <div class="experience__content">
-                            <h3 class="experience__role">Desenvolvedor Mobile Pleno</h3>
-                            <h4 class="experience__company">Digital Payments Co.</h4>
-                            <p class="experience__description">
-                                Desenvolvimento de aplicativos mobile iOS e Android com React Native e Expo. Criação de módulos nativos para funcionalidades específicas e integração com serviços terceiros de pagamento e autenticação.
-                            </p>
-                            <ul class="experience__achievements">
-                                <li>Aplicativo fintech com mais de 100 mil usuários ativos</li>
-                                <li>Implementação de autenticação biométrica (Face ID/Touch ID)</li>
-                                <li>Otimização de build size em 30% com code splitting</li>
-                                <li>Integração com SDKs de pagamento (Stripe, PayPal)</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="experience__item">
-                        <div class="experience__date">
-                            <span class="experience__year">2020</span>
-                            <span class="experience__duration">2021</span>
-                        </div>
-                        <div class="experience__content">
-                            <h3 class="experience__role">Desenvolvedor Front-End</h3>
-                            <h4 class="experience__company">Tech Startup Inc.</h4>
-                            <p class="experience__description">
-                                Desenvolvimento de interfaces web e landing pages para produtos digitais. Implementação de protótipos do Figma em código e manutenção de aplicações existentes. Participação em code reviews e documentação técnica.
-                            </p>
-                            <ul class="experience__achievements">
-                                <li>Entrega de 5 landing pages com alto índice de conversão</li>
-                                <li>Criação de biblioteca de componentes reutilizáveis</li>
-                                <li>Implementação de testes automatizados com 80% de cobertura</li>
-                                <li>Colaboração em projetos ágeis com metodologia Scrum</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section__title">Contato</h2>
-                <div class="contact__content">
-                    <p class="contact__text">
-                        Estou disponível para novas oportunidades e projetos. Entre em contato para conversarmos.
-                    </p>
-                    <div class="contact__links">
-                        <a href="mailto:contato@joaobuarque.dev" class="contact__link">
-                            <span class="contact__link-icon">@</span>
-                            contato@joaobuarque.dev
-                        </a>
-                        <a href="https://github.com/joaobuarque" target="_blank" rel="noopener noreferrer" class="contact__link">
-                            <span class="contact__link-icon">GH</span>
-                            github.com/joaobuarque
-                        </a>
-                        <a href="https://linkedin.com/in/joaobuarque" target="_blank" rel="noopener noreferrer" class="contact__link">
-                            <span class="contact__link-icon">LI</span>
-                            linkedin.com/in/joaobuarque
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+         <section id="contact" class="contact" aria-labelledby="contact-title">
+             <div class="container">
+                 <h2 id="contact-title" class="section__title">Contato</h2>
+                 <div class="contact__content">
+                     <p class="contact__text">
+                         Estou disponível para novas oportunidades e projetos. Entre em contato para conversarmos.
+                     </p>
+                     <div class="contact__links" role="list">
+                         <a href="mailto:joaovitordasilvabuarque@gmail.com" class="contact__link" role="listitem" aria-label="Enviar email para joaovitordasilvabuarque@gmail.com">
+                             <span class="contact__link-icon" aria-hidden="true">@</span>
+                             joaovitordasilvabuarque@gmail.com
+                         </a>
+                         <a href="tel:+5519997325624" class="contact__link" role="listitem" aria-label="Ligar para (19) 99732-5624">
+                             <span class="contact__link-icon" aria-hidden="true">📱</span>
+                             (19) 99732-5624
+                         </a>
+                         <a href="tel:+5519981146080" class="contact__link" role="listitem" aria-label="Ligar para (19) 98114-6080">
+                             <span class="contact__link-icon" aria-hidden="true">📱</span>
+                             (19) 98114-6080
+                         </a>
+                         <a href="https://github.com/joaovsbuarque2" target="_blank" rel="noopener noreferrer" class="contact__link" role="listitem" aria-label="Visitar perfil no GitHub">
+                             <span class="contact__link-icon" aria-hidden="true">GH</span>
+                             github.com/joaovsbuarque2
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p class="footer__text">
-                © 2025 João V. S. Buarque. Desenvolvido com HTML, CSS e JavaScript puro.
-            </p>
-        </div>
-    </footer>
+     <footer class="footer" role="contentinfo">
+         <div class="container">
+             <p class="footer__text">
+                 © <time datetime="2025">2025</time> João V. S. Buarque. Desenvolvido com HTML, CSS e JavaScript puro.
+             </p>
+         </div>
+     </footer>
 
     <script src="scripts/main.js"></script>
 </body>
